@@ -1,0 +1,16 @@
+{
+  "name": "admin_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "main.js": "0.0.1"
+  }
+}
