@@ -13,8 +13,8 @@ module.exports = {
 		}
 
 		try {
-			//await command.execute(interaction);
-            await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
+			await command.execute(interaction);
+            //await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
 		} catch (error) {
 			console.error(`Error executing ${interaction.commandName}`);
 			console.error(error);
